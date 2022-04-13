@@ -16,7 +16,7 @@ public class Hello {  // class start point
 		
 		// lkjljkes lksdjlsdjfsld sdl jldjlsd this is not code. this is called commenting
 		
-		
+		//
 		// To print anything
 		// ; is used to finish a statement or line.
 		System.out.println(       "  Mahmud  "    );
