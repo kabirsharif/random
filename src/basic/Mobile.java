@@ -1,6 +1,11 @@
 package basic;
 
 public class Mobile {
+
+	public Mobile(){
+		System.out.println("Yahoo");
+	}
+
 	
 	// states: property
 	String mobileName="iPhone";
