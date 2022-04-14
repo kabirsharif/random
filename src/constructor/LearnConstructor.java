@@ -18,15 +18,16 @@ public class LearnConstructor {
     String name = "james";
     int age;
     String address;
+    double salary;
 
 
     // Default constructor: Without any parameter
-    public LearnConstructor() {
+    public LearnConstructor() { // start point
         System.out.println("hello");
         System.out.println("hello1");
         System.out.println("hello2");
         System.out.println("hello3");
-    }
+    } // end point
 
     // Single parameterize Constructor
     public LearnConstructor(String name) {
@@ -42,12 +43,51 @@ public class LearnConstructor {
         System.out.println("Student name is " + this.name + " " + "Age is " + this.age);
     }
 
+    // String , int , String
     public LearnConstructor(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
         System.out.println("Student name is " + this.name + " " + "Age is " + this.age + " Address is " + this.address);
     }
+
+    // Signature pattern: String , String , int
+    public LearnConstructor(String name, String address, int age){
+        this.name=name;
+        this.address=address;
+        this.age = age;
+//      System.out.println(this.name);
+//      System.out.println(this.address);
+//      System.out.println(this.age);
+    }
+
+//     Signature pattern: int ,String , String ,
+    public LearnConstructor(int age, String name, String address){
+        this.age=age;
+        this.name=name;
+        this.address=address;
+    }
+
+    public LearnConstructor(int b, String c, String d, double salary){
+
+
+    }
+
+    public LearnConstructor(double salary, int b, String c, String d){
+
+
+    }
+
+    public LearnConstructor( int b, double salary, String d){
+
+
+    }
+    public LearnConstructor( int b, double salary, String c,String d){
+
+
+    }
+
+
 
 
     public static void main(String[] args) {
@@ -70,6 +110,15 @@ public class LearnConstructor {
 
         LearnConstructor tajwar = new LearnConstructor("naina", 23);
         LearnConstructor jamal = new LearnConstructor("Shebley", 34, "FL,USA");
+        System.out.println("=========================+++++===============================");
+
+        LearnConstructor husna= new LearnConstructor("Husna","huston,TX",21);
+
+        husna.address="Florida";
+        System.out.println(husna.address);
+
+
+
 
 
     }
