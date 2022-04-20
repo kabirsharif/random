@@ -37,11 +37,8 @@ public class LearnMethod {
 
 
     public void hello() {
-
         System.out.println("hello irin");
         System.out.println("hello irin");
-
-
     }
 
 
@@ -51,7 +48,26 @@ public class LearnMethod {
 
         LearnMethod learn = new LearnMethod();
 
-        learn.hello(); // call method by object name
+     learn.hello(); // call method by object name
+     learn.hello(); // call method by object name
+     learn.hello(); // call method by object name
+     learn.hello(); // call method by object name
+
+
+
+
+
+//        System.out.println("hello irin");
+//        System.out.println("hello irin");
+//
+//        System.out.println("hello irin");
+//        System.out.println("hello irin");
+//
+//        System.out.println("hello irin");
+//        System.out.println("hello irin");
+//
+//        System.out.println("hello irin");
+//        System.out.println("hello irin");
 
 
     }
