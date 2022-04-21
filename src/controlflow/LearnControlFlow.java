@@ -31,56 +31,167 @@ public class LearnControlFlow {
 
     // Condition :
 
-    static int number =  5; // Assign value
+    static int number = 5; // Assign value
     // = is called assignment operator
     // == is called Equal operator
 
-  //   number ==    6;
+    //   number ==    6;
     // 5 == 6  false
     // number == 5; True
 
-
+    static String name = "James";
+    static int age = 45;
 
 
     // if (  condition   ) {   }
 
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter your number");
-        int num=input.nextInt();
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("Enter your number");
+//        int num=input.nextInt();
+//
+//        if (  number == num  )     {
+//            System.out.println("hello");
+//            System.out.println("hello");
+//            System.out.println("hello");
+//            System.out.println("hello");
+//            System.out.println("hello");
+//            System.out.println("hello");
+//
+//        }
+//
+//        else {
+//
+//            System.out.println("value does not match");
+//
+//        }
 
-        if (  number == num  )     {
-            System.out.println("hello");
-            System.out.println("hello");
-            System.out.println("hello");
-            System.out.println("hello");
-            System.out.println("hello");
-            System.out.println("hello");
+        System.out.println("*****************************************************************");
+
+        if (name == "Bob") {
+            System.out.println("This is BOB");
+
 
         }
 
-        else {
+        if (name == "James")
+            System.out.println("This is James");
 
-            System.out.println("value does not match");
+
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+
+        System.out.println("*****************************************************************");
+
+
+        if (name == "james") {
+            System.out.println("This is james");
 
         }
 
 
+        if (name.equalsIgnoreCase("james")) {
+            System.out.println("This is new james");
+
+        }
 
 
+        System.out.println("*****************************************************************");
 
+
+//        if (age== 35){
+//            System.out.println("Your age is 35");
+//        }
+//        if (age== 45){
+//            System.out.println("Your age is 45");
+//        }
+//        if (age== 55){
+//            System.out.println("Your age is 55");
+//        }
+//        if (age== 65){
+//            System.out.println("Your age is 65");
+//        }
+
+        System.out.println("********************** Grater and Less *******************************************");
+
+
+        if (age > 35) {
+            System.out.println("Your age is grater than 35");
+        }
+        if (age <= 45) {
+            System.out.println("Your age is less equal 45");
+        }
+        if (age < 55) {
+            System.out.println("Your age is 55");
+        }
+        if (age > 65) {
+            System.out.println("Your age is 65");
+        }
+
+
+        System.out.println("********************** Scanner and compare *******************************************");
+
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("Enter your name");
+//        String name1=input.nextLine();
+//        if (name1.equals("Bob")){
+//            System.out.println("This is Bob");
+//        }
+//        if (name1.equals("Ahmed")){
+//            System.out.println("This is Ahmed");
+//        }
+//        if (name1.equals("Tauseef")){
+//            System.out.println("This is Tauseef");
+//        }
+//        if (name1.equals("Naina")){
+//            System.out.println("This is Naina");
+//        }
+//        if (name1.equals("Tayaab")){
+//            System.out.println("This is Tayaab");
+//        }
+//
+
+        System.out.println("********************** Scanner and compare Age *******************************************");
+
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Enter your Age");
+//        int voterAge = input.nextInt();
+//        System.out.println("Enter your Gender");
+//        String gender = input.next();
+//
+//        if (gender.equals("female") && voterAge >= 18) {
+//            System.out.println("You are Eligible to vote");
+//        } else if (gender.equals("male") && voterAge >= 18) {
+//            System.out.println("You are Eligible to vote");
+//        } else {
+//            System.out.println("You are not Eligible to vote");
+//        }
+
+
+        System.out.println("********************** Scanner and compare Age *******************************************");
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your Age");
+        int voterAge = input.nextInt();
+        System.out.println("Enter your Gender");
+        String gender = input.next();
+
+        if (gender.equals("female") || voterAge >= 18) {
+            System.out.println("You are Eligible to vote");
+        } else if (gender.equals("male") || voterAge >= 18) {
+            System.out.println("You are Eligible to vote");
+        } else {
+            System.out.println("You are not Eligible to vote");
+        }
 
 
 
     }
-
-
-
-
-
-
-
-
 
 
 }

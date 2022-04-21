@@ -52,6 +52,17 @@ public class LearnUnaryOperator {
 
         System.out.println(--number); // 33 +1
 
+        // Unary Plus operator  +
+        // Unary minus operator -
+
+
+        int a=5;
+        int b=3;
+        b += 9;   // 3 + 9
+        b  -=  17; //  12 -17
+        System.out.println(b);
+
+
 
 
     }
