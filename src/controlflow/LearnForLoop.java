@@ -10,9 +10,9 @@ public class LearnForLoop {
 
     public static void main(String[] args) {
 
-//        for (int i = 3; i < 9; i++) {
-//            System.out.println("Hello");
-//        }
+        for (int i = 3; i < 9; i++) {
+            System.out.println("Hello");
+        }
 
         // if for loop condition is not true then loop will exit from execution
 
@@ -22,11 +22,11 @@ public class LearnForLoop {
 
         System.out.println("*********************************************");
         LearnForLoop learn = new LearnForLoop();
-        //learn.display();
+      //  learn.display();
 
 //        for (int i = 0; i < 6; i++) {
-//            learn.display();
-//            System.out.println("Number of " + i);
+//          learn.display();
+//          System.out.println("Number of " + i);
 //        }
 
 
@@ -43,7 +43,7 @@ public class LearnForLoop {
 
         System.out.println("******************* Pre Increment and Pre Decrement Operator **************************");
 
-
+//
 //        for (int max = 7; max < 12; ++max) {
 //            System.out.println("This is for Husna");
 //        }
@@ -59,16 +59,35 @@ public class LearnForLoop {
 //        }
 
 
+        for (int max = 17; max > 12; max--  ) {
+            System.out.println("This is for Husna");
+
+        }
+
+        for (int max = 17; max > 12; max-=1   ) {
+            System.out.println("This is for Husna");
+
+        }
+
         for (int max = 17; max > 12; max-=2   ) {
             System.out.println("This is for Husna");
 
         }
 
+        for (int max = 17; max > 12; max--   ) {
+            System.out.println("This is for Husna");
+            max--;
+        }
+
+        // Unary plus: +
+        // Unary minus: -
+
         int a=5;
         int b=3;
-         b += 9;   // 3 + 9
-        b  -=  17; //  12 -17
+         b +=     9;   // 3 + 9
         System.out.println(b);
+        b  -=  17; //  12 -17
+       System.out.println(b);
 
 
 

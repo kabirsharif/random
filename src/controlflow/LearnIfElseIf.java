@@ -7,53 +7,53 @@ public class LearnIfElseIf {
 
     public static void main(String[] args) {
         // if else if
+        // else if means again condition
 
-        LearnIfElseIf learn=new LearnIfElseIf();
-       // learn.doRetirementCalculation();
-        learn.getGrade();
+        LearnIfElseIf learn = new LearnIfElseIf();
+        learn.doRetirementCalculation();
+         learn.getGrade();
 
 
     }
 
-    public void doRetirementCalculation(){
+    public void doRetirementCalculation() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your Age to get the Retirement Calculation");
         int age = input.nextInt();
+
         if (age >= 0 && age <= 40) {
             System.out.println("Your age is more/less than 24");
         } else if (age >= 40 && age <= 50) {
             System.out.println("Your age is more than 40");
-        } else if (age >= 50 && age <= 65) {
+        } else if (age >= 50 && age <= 64) {
             System.out.println("Your age is more/less than 60");
+        } else {
+            System.out.println("Your Age is eligible to get the Retirement Calculation");
         }
+
     }
 
 
-    public void getGrade(){
+    public void getGrade() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your Score to get the Grade");
         double score = input.nextDouble();
 
-        if (score >=90) {
+        if (score >= 90) {
             System.out.println("You got A+");
-        } else if (score >=80) {
+        } else if (score >= 80) {
             System.out.println("You got B+");
-        } else if (score >=70) {
+        } else if (score >= 70) {
             System.out.println("You got B");
-        }else if (score >=60) {
+        } else if (score >= 60) {
             System.out.println("You got C");
-        } else if (score >=50) {
+        } else if (score >= 50) {
             System.out.println("You got D");
         } else {
             System.out.println("You are fail");
         }
 
     }
-
-
-
-
-
 
 
 }

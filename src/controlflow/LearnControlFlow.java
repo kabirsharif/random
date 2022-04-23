@@ -46,63 +46,62 @@ public class LearnControlFlow {
     // if (  condition   ) {   }
 
     public static void main(String[] args) {
-//        Scanner input=new Scanner(System.in);
-//        System.out.println("Enter your number");
-//        int num=input.nextInt();
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter your number");
+        int num=input.nextInt();
+
+        if (  number == num  )     {
+            System.out.println("hello");
+            System.out.println("hello");
+            System.out.println("hello");
+            System.out.println("hello");
+            System.out.println("hello");
+            System.out.println("hello");
+
+        }
+
+        else {
+
+            System.out.println("value does not match");
+
+        }
+
+        System.out.println("*****************************************************************");
+
+//        if (name == "Bob") {
+//            System.out.println("This is BOB");
+//        }
 //
-//        if (  number == num  )     {
-//            System.out.println("hello");
-//            System.out.println("hello");
-//            System.out.println("hello");
-//            System.out.println("hello");
-//            System.out.println("hello");
-//            System.out.println("hello");
+//        if (name == "James")
+//            System.out.println("This is James");
+//
+//
+//        System.out.println("hello");
+//        System.out.println("hello");
+//        System.out.println("hello");
+//        System.out.println("hello");
+//        System.out.println("hello");
+
+        System.out.println("*****************************************************************");
+
+
+//        if (name == "james") {
+//            System.out.println("This is james");
 //
 //        }
 //
-//        else {
 //
-//            System.out.println("value does not match");
+//
+//        if (name.equalsIgnoreCase("james")) {
+//            System.out.println("This is new james");
 //
 //        }
 
-        System.out.println("*****************************************************************");
-
-        if (name == "Bob") {
-            System.out.println("This is BOB");
-
-
-        }
-
-        if (name == "James")
-            System.out.println("This is James");
-
-
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
 
         System.out.println("*****************************************************************");
 
 
-        if (name == "james") {
-            System.out.println("This is james");
-
-        }
-
-
-        if (name.equalsIgnoreCase("james")) {
-            System.out.println("This is new james");
-
-        }
-
-
-        System.out.println("*****************************************************************");
-
-
-//        if (age== 35){
+//        if (age == 35) {
 //            System.out.println("Your age is 35");
 //        }
 //        if (age== 45){
@@ -118,41 +117,41 @@ public class LearnControlFlow {
         System.out.println("********************** Grater and Less *******************************************");
 
 
-        if (age > 35) {
-            System.out.println("Your age is grater than 35");
-        }
-        if (age <= 45) {
-            System.out.println("Your age is less equal 45");
-        }
-        if (age < 55) {
-            System.out.println("Your age is 55");
-        }
-        if (age > 65) {
-            System.out.println("Your age is 65");
-        }
+//        if (age > 35) {
+//            System.out.println("Your age is grater than 35");
+//        }
+//        if (age <= 45) {
+//            System.out.println("Your age is less equal 45");
+//        }
+//        if (age < 55) {
+//            System.out.println("Your age is 55");
+//        }
+//        if (age > 65) {
+//            System.out.println("Your age is 65");
+//        }
 
 
         System.out.println("********************** Scanner and compare *******************************************");
 
-//        Scanner input=new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
 //        System.out.println("Enter your name");
-//        String name1=input.nextLine();
-//        if (name1.equals("Bob")){
+//        String name1 = input.nextLine();
+//        if (name1.equalsIgnoreCase("Bob")) {
 //            System.out.println("This is Bob");
 //        }
-//        if (name1.equals("Ahmed")){
+//        if (name1.equalsIgnoreCase("Ahmed")){
 //            System.out.println("This is Ahmed");
 //        }
-//        if (name1.equals("Tauseef")){
+//        if (name1.equalsIgnoreCase("Tauseef")){
 //            System.out.println("This is Tauseef");
 //        }
-//        if (name1.equals("Naina")){
+//        if (name1.equalsIgnoreCase("Naina")){
 //            System.out.println("This is Naina");
 //        }
-//        if (name1.equals("Tayaab")){
+//        if (name1.equalsIgnoreCase("Tayaab")){
 //            System.out.println("This is Tayaab");
 //        }
-//
+
 
         System.out.println("********************** Scanner and compare Age *******************************************");
 
@@ -163,10 +162,11 @@ public class LearnControlFlow {
 //        System.out.println("Enter your Gender");
 //        String gender = input.next();
 //
-//        if (gender.equals("female") && voterAge >= 18) {
-//            System.out.println("You are Eligible to vote");
-//        } else if (gender.equals("male") && voterAge >= 18) {
-//            System.out.println("You are Eligible to vote");
+//        // else if means again if condition
+//        if (gender.equalsIgnoreCase("female") && voterAge >= 18) {
+//            System.out.println("Female are Eligible to vote");
+//        } else if (gender.equalsIgnoreCase("male") && voterAge >= 18) {
+//            System.out.println("Male are Eligible to vote");
 //        } else {
 //            System.out.println("You are not Eligible to vote");
 //        }
@@ -174,20 +174,20 @@ public class LearnControlFlow {
 
         System.out.println("********************** Scanner and compare Age *******************************************");
 
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter your Age");
-        int voterAge = input.nextInt();
-        System.out.println("Enter your Gender");
-        String gender = input.next();
-
-        if (gender.equals("female") || voterAge >= 18) {
-            System.out.println("You are Eligible to vote");
-        } else if (gender.equals("male") || voterAge >= 18) {
-            System.out.println("You are Eligible to vote");
-        } else {
-            System.out.println("You are not Eligible to vote");
-        }
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Enter your Age");
+//        int voterAge = input.nextInt();
+//        System.out.println("Enter your Gender");
+//        String gender = input.next();
+//
+//        if (gender.equalsIgnoreCase("female") || voterAge >= 18) {
+//            System.out.println("You are Eligible to vote");
+//        } else if (gender.equalsIgnoreCase("male") || voterAge >= 18) {
+//            System.out.println("You are Eligible to vote");
+//        } else {
+//            System.out.println("You are not Eligible to vote");
+//        }
 
 
 

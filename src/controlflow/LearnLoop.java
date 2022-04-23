@@ -22,13 +22,11 @@ public class LearnLoop {
         // break Point: point where you want to stop or pause
         // if for loop condition is not true then loop will exit from execution
 
-        for (int i = 2; i <= 5; i++) {
-
-            System.out.println("hello, Israt");
-
-        }
-
-        System.out.println("gello");
+//        for (int i = 2; i < 5; i++) {
+//            System.out.println("hello, Israt");
+//        }
+//
+//        System.out.println("gello");
 //        System.out.println("hello, Israt");
 //        System.out.println("hello, Israt");
 //        System.out.println("hello, Israt");
@@ -36,24 +34,19 @@ public class LearnLoop {
 //        System.out.println("hello, Israt");
 
 
-
-        for (int a=0; a<4;a++){
+        for (int a = 0; a < 4; a++) {
             LearnLoop.doSum();
         }
 
-
-
-
     }
 
 
-    public static void doSum(){
-        int num1=5;
-        int num2=7;
-        int sum=num1+num2;
-        System.out.println("Summation value: "+sum);
+    public static void doSum() {
+        int num1 = 5;
+        int num2 = 7;
+        int sum = num1 + num2;
+        System.out.println("Summation value: " + sum);
     }
-
 
 
 }

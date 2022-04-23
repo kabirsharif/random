@@ -17,7 +17,7 @@ public class LearnWhileLoop {
 
 
     // While loop syntax
-    //  while ( condition  ){ increment ++ or Decrement -- operator             }
+    //  while ( condition  ){ increment ++ or Decrement -- operator    and code         }
 
     public static void main(String[] args) {
 
@@ -29,11 +29,11 @@ public class LearnWhileLoop {
 //        }
 
         // Increment Operator
-//        int number=7;
-//        while ( number<10     ){
-//            System.out.println("We are learning while loop");
-//            number++;
-//        }
+        int number=7;
+        while ( number<10     ){
+            System.out.println("We are learning while loop");
+            number++;
+        }
 
 
 

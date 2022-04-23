@@ -7,19 +7,19 @@ public class LearnDoWhileLoop {
     // Do while Loop execute at least one time first then it will check condition
 
 
-    // do { code and iterator     } while();
+    // do { code and iterator     } while( condition);
 
 
     public static void main(String[] args) {
         // First it will execute one time then it will check the condition
-        // if condition is true then execute block of the loop
+        // if condition is true then execute do block of the loop
 
-        int age = 22;
+//        int age = 22;
 //        do {
 //            // Execute this block of code
 //            System.out.println("Hello");
 //
-//        age--; // To control loop
+//            age--; // To control loop
 //        } while ( age>18   );
 
 
@@ -32,19 +32,34 @@ public class LearnDoWhileLoop {
 
 
         System.out.println("*************************************");
+       // LearnDoWhileLoop.wishOnBirthday1(24,"Ismat");
+        System.out.println("*************************************");
+      // LearnDoWhileLoop.wishOnBirthday(33,"Ahmed");
 
-        //  LearnDoWhileLoop.wishOnBirthday(43,"Ahmed");
 
         System.out.println("*************************************");
-        boolean cakeIsAvailable = true;
-        do {
-            LearnDoWhileLoop.wishOnBirthday(43, "Ahmed");
-        } while (cakeIsAvailable = false);
+//        boolean cakeIsAvailable = true;
+//        do {
+//            LearnDoWhileLoop.wishOnBirthday(20, "Ahmed");
+//        } while (cakeIsAvailable = false);
+
         System.out.println("************* String cake name ************************");
         String cakeName = "chocolat mousse";
+//        do {
+//            LearnDoWhileLoop.wishOnBirthday(21, "Ahmed");
+//        } while (cakeName == "Vanilla");
+
         do {
-            LearnDoWhileLoop.wishOnBirthday(43, "Ahmed");
-        } while (cakeName == "Vanilla");
+            LearnDoWhileLoop.wishOnBirthday(21, "Ahmed");
+
+          //  cakeName="New";
+         //   break;
+        } while (cakeName == "chocolat mousse");
+
+
+        do {
+            LearnDoWhileLoop.wishOnBirthday(21, "Ahmed");
+       } while (cakeName.equalsIgnoreCase("chocolat mousse"));
 
 
     }
@@ -58,5 +73,11 @@ public class LearnDoWhileLoop {
 
     }
 
+    public static void wishOnBirthday1(int age, String name) {
+        do {
+            System.out.println("Happy birthday to " + name);
+            age--;
+        } while (age > 18 && name.equalsIgnoreCase("Ahmed"));
 
+    }
 }
