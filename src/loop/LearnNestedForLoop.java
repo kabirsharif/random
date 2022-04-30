@@ -1,4 +1,4 @@
-package controlflow;
+package loop;
 
 public class LearnNestedForLoop {
 
@@ -16,6 +16,21 @@ public class LearnNestedForLoop {
 
         rightTriangle(10);
         reverseTriangle(10);
+
+//        int age=50;
+//
+//       // if( age<55 ){
+//       for( int k=age; k<55; k++ ){
+//
+//
+//            for (int i=0; i<9;i++){
+//                System.out.println("Hello");
+//            }
+//
+//        }
+
+
+
 
 
     }
@@ -45,6 +60,9 @@ public class LearnNestedForLoop {
 
 
     }
+
+
+
 
 
 

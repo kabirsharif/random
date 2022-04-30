@@ -1,4 +1,4 @@
-package controlflow;
+package loop;
 
 public class LearnNestedWhileLoop {
 
