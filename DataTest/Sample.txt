@@ -1,0 +1,11 @@
+This is our new txt file to read the file using java code
+1. tajwar
+2. sharif
+3. rashed
+4. husna
+5. ismat
+6. babor
+
+
+
+
