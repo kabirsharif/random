@@ -15,7 +15,7 @@ public class LearnDebugging {
     public static void main(String[] args) {
 
         // Error: is called syntax error
-       // System.out.println("hello");
+        // System.out.println("hello");
 
 
 //        int num1 = 40;
@@ -25,8 +25,20 @@ public class LearnDebugging {
 //        System.out.println("Summation of two value :" + total);
 
 
-        Calculator.result();
+        //  Calculator.result();
 
+        reverseTriangle(7);
+
+
+    }
+
+    public static void reverseTriangle(int rowNum) {
+        for (int i = rowNum; i >= 1; i--) {
+            for (int k = i; k >= 1; k--) {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+        }
 
 
     }
