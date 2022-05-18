@@ -98,15 +98,14 @@ Java does NOT support multiple inheritance as it causes ambiguity
 =======================================================================================================================
 #Polymorphism:
 
-    - Polymorphism in Java is a concept by which we can perform a single
-        action in different ways.
+    - Polymorphism in Java is a concept by which we can perform a single action in different ways.
     - Polymorphism is derived from 2 Greek words: poly and morphs.
     - The word "poly" means many and "morphs" means forms.
         So polymorphism means many forms.
     - It occurs when we have many classes that are related to each other by inheritance.
 
      There are two types of polymorphism in Java:
-        1. compile-time polymorphism/ (method overloading)/ static binding
+        1. compile-time polymorphism/ (method overloading)/ static binding/ early binding
         2. runtime polymorphism /(method overriding)/ Dynamic binding
 
      We can perform polymorphism in java by method overloading and method overriding.
@@ -133,6 +132,8 @@ Java does NOT support multiple inheritance as it causes ambiguity
             In other words, it is the type of the object being referred to
             (not the type of the reference variable) that determines which version
             of an overridden method will be executed.
+        - Object is used for dynamic binding/ to call the overriding method
+
 
 =======================================================================================================================
 
