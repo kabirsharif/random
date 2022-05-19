@@ -153,6 +153,47 @@ Data structures in the Collection framework, such as ArrayList and Vector, store
 An object is needed to support synchronization in multithreading.
 
 
+==================================================================================
+
+1. Collection Interface :
+The root interface in the collection hierarchy. A collection represents a group of objects, known as its elements.
+The JDK does not provide any direct implementations of this interface: The implementation splitted to its child interfaces and their implementation classes.
+Collection interface provides the most common general methods which are applicable for any collection object (List, Set, Queue implementations).
+2. List Interface :
+An ordered collection (also known as a sequence).
+Insertion order preserved, if user used List type implementation, user has control over the order, because the insertion order and retrieval order of an element is same.
+If List type implementations used Duplicate elements allowed to insert.
+3. Set Interface :
+Insertion order not preserved, if user used Set type implementation, user has no control over the order, because the insertion order and retrieval order of an element is not same.
+If Set type implementations used Duplicate elements not allowed to insert.
+4. SortedSet Interface :
+Child interface of Set. It is a set that holds the elements in natural sorting (Ascending) order.
+The element which we are adding to a SortedSet implementation that element should implements Comparable Interface. Because when we are adding element, it uses Comparable implementation to sort the order. ( Just remember this Interface Comparable, I will explain more in depth details about Comparator and sorting order in further tutorials).
+5. NavigableSet Interface :
+It is a set that extends SortedSet, it means it is child Interface of SortedSet.
+It provides navigational methods. For example if you want to retrieve an element that higher than or less than a given value. If you want such kind of navigation, NavigableSet provides navigational utility methods.
+6. Queue Interface :
+A collection designed for holding elements prior to processing.
+A queue supports the insert and remove operations using a FIFO (First-In-First-Out) manner.
+Queue provides prior to processing methods.
+7. Map Interface :
+An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
+Map represent each element as key value pair, and that key value pair called Entry.
+Map interface provides the most common methods that is applicable for any Map implementation type object.
+8. SortedMap Interface :
+Child interface of Map. It is a map that holds the key elements in natural sorting (Ascending) order.
+The key element which we are adding to a SortedMap implementation that element should implements Comparable Interface. Because when we are adding element, it uses Comparable implementation to sort the order. ( Just remember this Interface Comparable, I will explain more in depth details about Comparator and sorting order in further tutorials).
+9. NavigableMap Interface :
+It is a Map that extends SortedMap, it means it is child Interface of SortedMap.
+It provides navigational methods. For example if you want to retrieve a key element that higher than or less than a given key. If you want such kind of navigation, NavigableMap provides navigational utility methods.
+
+
+
+
+===========================================================================
+
+
+
 
 
 
